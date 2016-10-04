@@ -1,3 +1,5 @@
+https://travis-ci.org/ThVanC/almfortechies.svg?branch=master
+
 # alm-course
 
 Continuous integration server:
