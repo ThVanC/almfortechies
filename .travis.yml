@@ -4,5 +4,6 @@ node_js:
 before_script:
   - npm install -g grunt-cli
 deploy:
+  app: alm-for-techies-ae
   provider: heroku
   api_key: $HEROKU_KEY
