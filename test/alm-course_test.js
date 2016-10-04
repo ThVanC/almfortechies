@@ -29,6 +29,8 @@ exports['welcomeMessage'] = {
   'all tests': function(test) {
     //Create your test here!
     test.equal(alm_course.sum(1,2),3);
+    //test.throws(alm_course.sum("test",1),"One or more arguments are no number");
+    test.equal(alm_course.sum("test",1), "One or more arguments are no number");
     test.done();
   },
 };
